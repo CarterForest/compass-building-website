@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Compass Building</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section (similar to your homepage) -->
+    <header>
+    <div class="header-container">
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png" alt="Compass Logo" /></a>
+        </div>
+        <nav class="main-nav">
+            <div class="hamburger" onclick="toggleMenu()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+
+    <script>
+	function toggleMenu() {
+    	    var menu = document.getElementById('nav-menu');
+            menu.classList.toggle('show');
+	}
+    </script>
+
+    <!-- Main Product Section -->
+    <main>
+        <section class="products-intro">
+            <h1>Our Products</h1>
+            <p>Explore our wide selection of high-quality lumber products suitable for any project.</p>
+        </section>
+
+        <section class="product-grid">
+            <div class="product-card">
+                <img src="images/iStock-1144767523-scaled.webp" alt="Product 1" class="product-image">
+                <h3>Moulding & Millwork</h3>
+		<h4>FJ Boards</h4>
+		    <ul>
+		       <li>Primed</li>
+		       <li>Raw</li>
+		    </ul>
+		<h4>MDF Boards</h4>
+		    <ul>
+		       <li>Primed</li>
+		    </ul>
+		<h4>FJ Moulding</h4>
+		    <ul>
+		       <li>Primed</li>
+		       <li>Raw</li>
+		    </ul>
+		<h4>LVL Boards / Mouldings</h4>
+		    <ul>
+		       <li>Primed</li>
+		    </ul>
+                <a href="product1-details.html" onclick="return false;" class="button">Learn More</a>
+            </div>
+
+            <div class="product-card">
+                <img src="images/1715971642-huge-scaled.webp" alt="Product 2" class="product-image">
+                <h3>Specialty Lumber</h3>
+		<h4>Western Red Cedar</h4>
+		    <ul>
+		       <li>Dimension</li>
+		       <li>Pattern</li>
+		       <li>Boards</li>
+		       <li>Timbers</li>
+		       <li>Decking</li>
+		       <li>Siding</li>
+		    </ul>
+		<h4>Douglas Fir</h4>
+		    <ul>
+		       <li>Dimension</li>
+		       <li>Pattern</li>
+		       <li>Boards</li>
+		       <li>Timbers</li>
+		    </ul>
+		<h4>Southern Yellow Pine</h4>
+		    <ul>
+		       <li>Boards</li>
+		       <li>Pattern</li>
+		    </ul>
+		<h4>Spruce and Pine</h4>
+		    <ul>
+		       <li>Boards</li>
+		       <li>Pattern</li>
+		       <li>Siding</li>
+		    </ul>
+                <a href="product1-details.html" onclick="return false;" class="button">Learn More</a>
+            </div>
+
+            <div class="product-card">
+                <img src="images/iStock-106423936-scaled.webp" alt="Product 3" class="product-image">
+		<h3>Panels</h3>
+                <h4>Hardwood Plywood</h4>
+		    <ul>
+		        <li>Luan</li>
+		        <li>Birch</li>
+		    </ul>
+	        <h4>Radiata Pine</h4>
+		    <ul>
+		        <li>ACX</li>
+		        <li>BCX</li>
+		    </ul>
+		<h4>MDF Panels</h4>
+		    <ul>
+		        <li>Moulding Grade</li>
+		        <li>Shop Grade</li>
+		    </ul>
+                <a href="product3-details.html" class="button">Learn More</a>
+            </div>
+
+	    <div class="product-card">
+                <img src="images/iStock-885566710-1-scaled.webp" alt="Product 4" class="product-image">
+		<h3>Dimension Lumber</h3>
+		    <ul>
+		        <li>SPF</li>
+		        <li>Doug Fir / Larch</li>		   
+		        <li>Hem/Fir</li>
+		        <li>Solid</li>
+		        <li>FJ</li>
+		        <li>Southern Yellow Pine</li>
+			<li>#2 &Btr</li>
+			<li>#3</li>
+			<li>Economy</li>
+			<li>Long Length</li>
+		    </ul>
+                <a href="product3-details.html" class="button">Learn More</a>
+            </div>
+
+            <!-- Add more product cards as needed -->
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Compass Building Products. All rights reserved.</p>
+    </footer>
+</body>
+</html>

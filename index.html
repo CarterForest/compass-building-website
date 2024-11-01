@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compass Building Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <div class="header-container">
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png" alt="Compass Logo" /></a>
+        </div>
+        <nav class="main-nav">
+            <div class="hamburger" onclick="toggleMenu()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+
+    <script>
+	function toggleMenu() {
+    	    var menu = document.getElementById('nav-menu');
+            menu.classList.toggle('show');
+	}
+    </script>
+
+    <div class="banner">
+        <div class="banner-content">
+            <h1>Welcome to Compass</h1>
+	    <p>Dedication - Service - Trust
+	    <br>
+	    <a href="about.html" class="button">Learn More</a> <!-- Button with link -->
+        </div>
+    </div>
+
+    <div class="cards-container">
+        <a href="products.html" class="card">
+            <img src="images/iStock-883091686-scaled.webp" alt="Our Products" class="card-image" />
+            <div class="card-content">
+                <h3>Our Products</h3>
+                <p>Discover Our Products</p>
+            </div>
+        </a>
+    
+        <a href="about.html" class="card">
+            <img src="images/iStock-1013606422-scaled.webp" alt="About Compass" class="card-image" />
+            <div class="card-content">
+                <h3>About Compass</h3>
+                <p>Learn more about us</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="full-width-banner">
+        <div class="banner-text">
+             <h2>Our Commitment</h2>
+             <p>We provide our customers the products they need with the utmost</p>
+	     <p>commitment to quality, service and trust.</p>
+        </div>
+        <img src="images/compas-icon-cutoff-white1.webp" alt="Compass Image" class="banner-image" />
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Compass Building Products. All rights reserved.</p>
+    </footer>
+</body>
+</html>
